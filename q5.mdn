@@ -1,0 +1,33 @@
+5. List out the different types of classification in DBMS and explain them in depth.
+Types of DBMS Classification:
+
+Hierarchical DBMS:
+
+Structure: Data is organized in a tree-like structure with parent-child relationships. Each record has one parent and potentially multiple children.
+Example: IBM Information Management System (IMS).
+Advantages: Efficient for hierarchical data relationships, such as organizational structures.
+Disadvantages: Rigid structure makes it difficult to handle complex queries and reorganize data.
+Network DBMS:
+
+Structure: Data is represented in a graph format where records can have multiple parent and child relationships, allowing more complex relationships.
+Example: Integrated Data Store (IDS).
+Advantages: Flexible and supports many-to-many relationships.
+Disadvantages: Complexity in design and maintenance; less user-friendly than other models.
+Relational DBMS (RDBMS):
+
+Structure: Data is organized in tables (relations) with rows and columns. Tables can be linked using keys.
+Example: MySQL, Oracle, PostgreSQL.
+Advantages: Powerful query capabilities with SQL; supports complex queries, transactions, and data integrity.
+Disadvantages: Performance can be affected with very large datasets; complex schema design.
+Object-oriented DBMS (OODBMS):
+
+Structure: Data is stored as objects, similar to object-oriented programming. It supports complex data types and relationships.
+Example: db4o, ObjectDB.
+Advantages: Better integration with object-oriented programming languages; supports complex data models.
+Disadvantages: Less mature than RDBMS; fewer standard tools and resources.
+NoSQL DBMS:
+
+Structure: Non-relational databases designed for various data models like key-value pairs, documents, columns, or graphs.
+Example: MongoDB (document-oriented), Redis (key-value).
+Advantages: Scalable, flexible, and suitable for unstructured or semi-structured data.
+Disadvantages: Limited support for complex queries and transactions; varying consistency models.

@@ -1,0 +1,10 @@
+3. What is DBMS? What was the need for DBMS?
+Database Management System (DBMS) is software that provides an interface to interact with databases. It enables users to create, read, update, and delete data while managing the database's structure and relationships.
+
+Need for DBMS:
+
+Efficient Data Management: Facilitates organized storage and retrieval of data.
+Data Integrity and Consistency: Ensures data accuracy and prevents anomalies through constraints and validation.
+Concurrency Control: Manages simultaneous data access and modifications by multiple users.
+Security: Provides access control and data protection mechanisms.
+Backup and Recovery: Offers tools for data backup and recovery to prevent data loss.

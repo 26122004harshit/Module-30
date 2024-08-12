@@ -1,0 +1,16 @@
+
+1. What is a Database? Explain with an example on why should we need a database.
+A database is an organized collection of structured information or data, typically stored electronically in a computer system. It is managed by a Database Management System (DBMS) which allows users to easily store, retrieve, update, and manage data.
+
+Example: Imagine an online retail store. The store uses a database to keep track of products, customers, orders, and inventory. The database might include tables such as:
+
+Products: Contains details about each product (ID, name, price, stock quantity).
+Customers: Stores customer information (ID, name, address, contact details).
+Orders: Records order details (Order ID, customer ID, product IDs, order date, total amount).
+Why we need a database:
+
+Efficient Data Management: Databases provide a systematic way to manage large volumes of data.
+Data Integrity: Ensures accuracy and consistency of data.
+Security: Protects data from unauthorized access.
+Data Retrieval: Allows fast and flexible querying and reporting.
+Concurrency Control: Manages multiple users accessing the data simultaneously.

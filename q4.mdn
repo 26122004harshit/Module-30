@@ -1,0 +1,8 @@
+4. Explain 5 challenges of file-based storage systems that were tackled by DBMS.
+Challenges Addressed by DBMS:
+
+Data Redundancy: DBMS reduces redundancy through normalization, which organizes data into related tables and minimizes duplication.
+Data Integrity: DBMS enforces data integrity through constraints and rules to ensure accuracy and consistency.
+Concurrency Control: DBMS provides mechanisms to handle simultaneous access, preventing conflicts and ensuring data consistency.
+Scalability: DBMS supports scaling by optimizing data storage and retrieval processes to handle large volumes of data effectively.
+Backup and Recovery: DBMS includes automated tools and processes for backing up data and recovering it in case of failures or data loss.

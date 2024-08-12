@@ -1,0 +1,21 @@
+7. Explain 3-schema architecture along with its advantages.
+3-Schema Architecture is a framework for managing database systems, dividing the database into three levels to provide data abstraction and independence:
+
+Internal Schema:
+
+Description: Defines the physical storage of data, including file structures, indexes, and access paths.
+Purpose: Deals with how data is physically stored and optimized for performance.
+Conceptual Schema:
+
+Description: Represents the entire database structure as a whole, detailing entities, relationships, and constraints without focusing on physical storage.
+Purpose: Provides a unified view of the data and ensures consistency across the database.
+External Schema:
+
+Description: Defines different user views or subsets of the database, tailored to specific user needs or applications.
+Purpose: Allows users to interact with the data through customized views, simplifying user interactions and hiding complexity.
+Advantages:
+
+Data Abstraction: Separates the user views from the physical storage, enhancing data abstraction.
+Data Independence: Changes in one schema level do not impact other levels, making database modifications easier.
+Flexibility: Users can have personalized views of the data without affecting the overall database structure.
+Improved Maintenance: Simplifies database management and maintenance by separating different concerns.
